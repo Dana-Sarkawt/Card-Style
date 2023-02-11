@@ -1,0 +1,150 @@
+
+*{
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: speda;
+    src: url(/font/Speda-Bold\ -\ Copy.ttf); /* لێرە لینکی فایلی فۆنت دابنێ*/
+}
+
+
+
+
+.card_container{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card_img{
+    background-image: url(/img/punisher_ver4_xlg.jpg);   /* وێنەی کاردی یەکەم*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+
+
+.card_txt{
+    display: none;
+}
+
+
+.card_link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.card:hover .card_txt{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: #1a1a1a9c;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: speda;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.card_img_2{
+    background-image: url(/img/batman_ver3.jpg);   /* وێنەی کاردی دووەم*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+.card_img_3{
+    background-image: url(/img/bolt_ver2.jpg);  /* وێنەی کاردی سێیەم*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+.card_img_4{
+    background-image: url(/img/tom_and_jerry_ver2.jpg);  /* وێنەی کاردی چوارەم*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+.card_img_5{
+    background-image: url(/img/rampage_ver2.jpg);  /* وێنەی کاردی پێنجەم*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:561px){
+    .card{
+        width: 150px;
+        height: 250px;
+
+    }
+
+    .card_img{
+        height: 250px;
+    }
+
+    .card_img_2{
+        height: 250px;
+    }
+
+    .card_img_3{
+        height: 250px;
+    }
+
+    .card_img_4{
+        height: 250px;
+    }
+
+    .card_img_5{
+        height: 250px;
+    }
+}
