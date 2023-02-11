@@ -147,4 +147,9 @@
     .card_img_5{
         height: 250px;
     }
+    
+    
+    .card:hover .card_txt{
+        height: 250px;
+    }
 }
